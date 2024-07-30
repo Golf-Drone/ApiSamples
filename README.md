@@ -1,2 +1,2 @@
 # ApiSamples
-A playground for playing with APIs, particularly OpenAI
+A playground for playing with APIs, particularly OpenAI.
