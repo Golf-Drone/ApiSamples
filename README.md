@@ -2,7 +2,7 @@
 A playground for playing with APIs, particularly OpenAI.
 
 ## Current caveats
-* There is no build - the code assumes you have installed the openai and dotenv libraries.
+* There is no build - the code assumes you have installed the openai, dotenv and duckduckgo_search libraries.
 * A .env file must be created in the project root containing the openai api key as follows
     OPEN_AI_KEY=_[your key goes here]_
 
@@ -17,3 +17,4 @@ Tool versions managed by [ASDF](www.asdf-vm.com)
 6. Restart your terminal
 7. `pip install openai`
 8. `pip install python-dotenv` (consider using a python virtual env to manage libraries)
+9. `pip install duckduckgo_search`
