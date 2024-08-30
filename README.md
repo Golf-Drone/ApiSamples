@@ -15,6 +15,4 @@ Tool versions managed by [ASDF](www.asdf-vm.com)
 4. Add `. /opt/homebrew/opt/asdf/libexec/asdf.sh` to your home folder .zprofile file
 5. Restart your terminal
 6. `asdf plugin add python`
-7. `pip install openai`
-8. `pip install python-dotenv` (consider using a python virtual env to manage libraries)
-9. `pip install duckduckgo_search`
+7. `pip install -r requirements.txt`

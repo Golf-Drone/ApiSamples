@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New User</title>
+</head>
+<body>
+<H1>Hello {{name}}</H1>
+    <p>Add some comments so I can test persisting them to the database</p>
+    <form method="post">
+        <input type="text" name="comments" size="100" required>
+        <input type="hidden" name="name" value="{{name}}">
+        <input type="submit">
+    </form>
+</body>
+</html>
